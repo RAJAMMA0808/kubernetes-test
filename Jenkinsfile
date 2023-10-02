@@ -16,7 +16,7 @@ pipeline {
             }
         stage ('git checkout') {
             steps {
-                git 'https://github.com/hemanthkatkozu/kubernetes-test.git'
+                git 'https://github.com/RAJAMMA0808/kubernetes-test.git'
             }
         }
         stage("k8s-deployment")
